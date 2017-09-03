@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 #from Bot import WikiBot
 
 def WikiBot():
-    TOKEN = "377124564:AAGMAac_fqA8ViAQRa99-kD7LQKi7U9bZPw"
+    TOKEN = "<token>"
     bot = telebot.TeleBot(TOKEN)
     # Обработчик команд '/start' и '/help'.
     @bot.message_handler(commands=['start', 'help'])
